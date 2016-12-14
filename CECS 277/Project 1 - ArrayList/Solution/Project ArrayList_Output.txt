@@ -1,0 +1,20 @@
+Player 1 plays card is 10 of Spades
+Player 2 plays card is 5 of Diamonds
+PLayer 1 wins the round
+Player 1 plays card is Jack of Diamonds
+Player 2 plays card is Jack of Clubs
+War
+War card for player1 is xx
+War card for player2 is xx
+War card for player1 is xx
+War card for player2 is xx
+War card for player1 is xx
+War card for player2 is xx
+War card for player1 is 5 of Hearts
+War card for player2 is 3 of Diamonds
+Player 1 wins the war round
+Player 1 plays card is Jack of Spades
+Player 2 plays card is 6 of Diamonds
+PLayer 1 wins the round
+game over
+Player 2 wins the game

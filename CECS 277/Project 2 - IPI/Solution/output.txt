@@ -1,0 +1,80 @@
+run:
+******* Part I *************************************************
+****************************************************************
+Rectangle object's radius is 1.0, perimeter is 6.2831852, area is 3.141592653589793created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Rectangle object's radius is 3.0, perimeter is 18.849555600000002, area is 3.141592653589793created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Rectangle object's radius is 6.0, perimeter is 37.699111200000004, area is 3.141592653589793created on Mon Sep 26 12:02:12 PDT 2016
+color: Blue and filled: false
+Rectangle object's width is 1.0, height is 1.0, perimeter is 4.0, area is 1.0created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Rectangle object's width is 3.0, height is 4.0, perimeter is 14.0, area is 12.0created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Rectangle object's width is 5.0, height is 7.0, perimeter is 24.0, area is 35.0created on Mon Sep 26 12:02:12 PDT 2016
+color: Red and filled: true
+Triangle object's side1 is 1.0, side2 is 1.0 side2 is 1.0, perimeter is 3.0, area is 0.4330127018922193created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Triangle object's side1 is 3.0, side2 is 4.0 side2 is 5.0, perimeter is 12.0, area is 6.0created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Triangle object's side1 is 3.0, side2 is 4.0 side2 is 5.0, perimeter is 12.0, area is 6.0created on Mon Sep 26 12:02:12 PDT 2016
+color: Green and filled: true
+
+**************After setters modification*************************
+Rectangle object's radius is 24.985365407606658, perimeter is 156.9876781456661, area is 3.141592653589793created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Rectangle object's radius is 14.933406564247285, perimeter is 93.82935911006139, area is 3.141592653589793created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Rectangle object's radius is 7.734935304147016, perimeter is 48.60003102597403, area is 3.141592653589793created on Mon Sep 26 12:02:12 PDT 2016
+color: Blue and filled: false
+Rectangle object's width is 1.93482744311848, height is 38.44385674902897, perimeter is 80.75736838429489, area is 74.38222905733684created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Rectangle object's width is 12.357446292245326, height is 2.6976930292832315, perimeter is 30.110278643057114, area is 33.33659672233213created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Rectangle object's width is 7.031010879756193, height is 36.85618833332617, perimeter is 87.77439842616474, area is 259.1362611579596created on Mon Sep 26 12:02:12 PDT 2016
+color: Red and filled: true
+Triangle object's side1 is 36.31843538173938, side2 is 44.71975744100398 side2 is 44.12948401202291, perimeter is 125.16767683476627, area is 736.1442096134745created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Triangle object's side1 is 43.95416629857634, side2 is 40.39831013649081 side2 is 30.352765936075368, perimeter is 114.70524237114252, area is 593.0957145129331created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Triangle object's side1 is 47.56979992040284, side2 is 40.80400450900443 side2 is 31.342621930912554, perimeter is 119.71642636031983, area is 632.1882611981132created on Mon Sep 26 12:02:12 PDT 2016
+color: Green and filled: true
+
+******* Part II Sorted *****************************************
+****************************************************************
+Max object is: Rectangle object's radius is 24.985365407606658, perimeter is 156.9876781456661, area is 3.141592653589793created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Max object is: Rectangle object's radius is 14.933406564247285, perimeter is 93.82935911006139, area is 3.141592653589793created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Max object is: Rectangle object's width is 1.93482744311848, height is 38.44385674902897, perimeter is 80.75736838429489, area is 74.38222905733684created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Max object is: Rectangle object's width is 1.93482744311848, height is 38.44385674902897, perimeter is 80.75736838429489, area is 74.38222905733684created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Max object is: Rectangle object's width is 7.031010879756193, height is 36.85618833332617, perimeter is 87.77439842616474, area is 259.1362611579596created on Mon Sep 26 12:02:12 PDT 2016
+color: Red and filled: true
+Max object is: Triangle object's side1 is 36.31843538173938, side2 is 44.71975744100398 side2 is 44.12948401202291, perimeter is 125.16767683476627, area is 736.1442096134745created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Max object is: Triangle object's side1 is 36.31843538173938, side2 is 44.71975744100398 side2 is 44.12948401202291, perimeter is 125.16767683476627, area is 736.1442096134745created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Max object is: Triangle object's side1 is 47.56979992040284, side2 is 40.80400450900443 side2 is 31.342621930912554, perimeter is 119.71642636031983, area is 632.1882611981132created on Mon Sep 26 12:02:12 PDT 2016
+color: Green and filled: true
+ 
+Rectangle object's radius is 24.985365407606658, perimeter is 156.9876781456661, area is 3.141592653589793created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Rectangle object's radius is 14.933406564247285, perimeter is 93.82935911006139, area is 3.141592653589793created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Rectangle object's radius is 7.734935304147016, perimeter is 48.60003102597403, area is 3.141592653589793created on Mon Sep 26 12:02:12 PDT 2016
+color: Blue and filled: false
+Rectangle object's width is 12.357446292245326, height is 2.6976930292832315, perimeter is 30.110278643057114, area is 33.33659672233213created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Rectangle object's width is 1.93482744311848, height is 38.44385674902897, perimeter is 80.75736838429489, area is 74.38222905733684created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Rectangle object's width is 7.031010879756193, height is 36.85618833332617, perimeter is 87.77439842616474, area is 259.1362611579596created on Mon Sep 26 12:02:12 PDT 2016
+color: Red and filled: true
+Triangle object's side1 is 43.95416629857634, side2 is 40.39831013649081 side2 is 30.352765936075368, perimeter is 114.70524237114252, area is 593.0957145129331created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+Triangle object's side1 is 47.56979992040284, side2 is 40.80400450900443 side2 is 31.342621930912554, perimeter is 119.71642636031983, area is 632.1882611981132created on Mon Sep 26 12:02:12 PDT 2016
+color: Green and filled: true
+Triangle object's side1 is 36.31843538173938, side2 is 44.71975744100398 side2 is 44.12948401202291, perimeter is 125.16767683476627, area is 736.1442096134745created on Mon Sep 26 12:02:12 PDT 2016
+color: white and filled: false
+BUILD SUCCESSFUL (total time: 0 seconds)
