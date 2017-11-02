@@ -7,12 +7,17 @@
 // Input of zero ends the program by triggering the boolean flag, setting it to true.
 // Negatives are exceptions and will cause errors as there is no input validation.
 //*****************************************************************************************
+
 import java.util.Scanner;
+
 public class TestFactors {
+
 // ---------------------------------------------------------------
 // Precondition: testNumber must be greater than or equal to zero.
 // Postcondition: Program exit when input is zero
 //----------------------------------------------------------------
+
+    //create an object of a Scanner class for reading keyboard input
     static Scanner in = new Scanner(System.in);
 
     public static void main(String[] args) {

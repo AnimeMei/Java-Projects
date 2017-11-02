@@ -7,9 +7,12 @@
 // The recursive call will continue until the base case, number = 1, is reached.
 // If a prime factor is not found the method iterates the factor variable by 1.
 //************************************************************************************
+
 public class ShowFactors {
+    
 // Precondition:  testNumber must be greater than or equal to zero.
 // Postcondition: when number = 1, method returns the prime factors of number in descending order
+    
     public static void showFactors(int number) {  // Overloaded method that takes an arguement from TestFactors
 
         System.out.print("The factors for " + number + ": ");
@@ -23,14 +26,14 @@ public class ShowFactors {
         if (number != 1) {
             if (number % factor == 0) {       // a factor is found when remainder is zero
                 number = number / factor;
-                showFactors(number, factor);
+                showFactors(number, factor);     // recursive method iterates factor
                 System.out.print(factor + " ");
 
-            } // close inner if
+            }
             else {
                 showFactors(number, factor + 1); // recursive method iterates factor
             }
-        }     // end outer if
+        }
     }
 
 }
