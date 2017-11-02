@@ -1,5 +1,5 @@
 package List;
-// ************************************************************************************************************
+// *********************************************************************************
 // Lab 2
 // Class: CS 111C		Date:	 4/6/16
 //  The ListReferenceBased class is a reference based implementation of the ADT list.
@@ -8,10 +8,10 @@ package List;
 // Method replace replaces each occurence of oldValue in the list with newValue.  it then return the number of items replaced
 // Method equals is a boolean that returns true if aList has values in the same order as the current list, else returns false.
 //
-// ****************************************************************************************************
-// ****************************************************
+// **********************************************************************************
+
+
 // Reference-based implementation of ADT list.
-// ****************************************************
 public class ListReferenceBased implements ListInterface {
 
   // reference to linked list of items
@@ -22,39 +22,37 @@ public class ListReferenceBased implements ListInterface {
     public ListReferenceBased() {
       numItems = 0;
       head = null;
-    }  // end default constructor
+    }
 
     public boolean isEmpty() {
       return numItems == 0;
-    }  // end isEmpty
+    }
 
     public int size() {
       return numItems;
-    }  // end size
+    }
 
     private Node find(int index) {
-    // --------------------------------------------------
-    // Locates a specified node in a linked list.
-    // Precondition: index is the number of the desired
-    // node. Assumes that 1 <= index <= numItems+1
-    // Postcondition: Returns a reference to the desired
-    // node.
-    // --------------------------------------------------
+    /* --------------------------------------------------
+     Locates a specified node in a linked list.
+     Precondition: index is the number of the desired
+     node. Assumes that 1 <= index <= numItems+1
+     Postcondition: Returns a reference to the desired
+     node.
+     --------------------------------------------------*/
       Node curr = head;
       for (int skip = 0; skip < index; skip++) {
         curr = curr.next;
-      } // end for
+      }
       return curr;
-    } // end find
+    }
 
     public Object get(int index) {
-
         // get reference to node, then data in node
         Node curr = find(index);
         Object dataItem = curr.item;
         return dataItem;
-
-    } // end get
+    }
 
     public void add(int index, Object item) {
       if (index >= 0 && index < numItems+1) {
@@ -71,10 +69,11 @@ public class ListReferenceBased implements ListInterface {
           // the node that prev references
           Node newNode = new Node(item, prev.next);
           prev.next = newNode;
-        } // end if
+        }
         numItems++;
       }
-    }  // end add
+    }
+    
     public void remove(int index) {
       if (index >= 0 && index < numItems) {
         if (index == 0) {
@@ -87,18 +86,18 @@ public class ListReferenceBased implements ListInterface {
           // references, save reference to node
           Node curr = prev.next;
           prev.next = curr.next;
-        } // end if
+        }
         numItems--;
-      } // end if
-    }  // end remove
+      }
+    }
 
     public void removeAll() {
-      // setting head to null causes list to be
-      // unreachable and thus marked for garbage
-      // collection
+      /* setting head to null causes list to be
+       unreachable and thus marked for garbage
+       collection */
       head = null;
       numItems = 0;
-    } // end removeAll
+    }
 
     public int replace(Object oldValue, Object newValue) {
         // Precondition:  oldValue and newValue are valid values within the list
@@ -116,9 +115,9 @@ public class ListReferenceBased implements ListInterface {
                 count++;
             }
             curr = curr.next;
-        } //end while
+        }
 
-//        System.out.println("Number of items replaced: " + count);
+        //System.out.println("Number of items replaced: " + count);
         return count;
     }
 
@@ -143,7 +142,7 @@ public class ListReferenceBased implements ListInterface {
 
                 curr = curr.next;   //first list loop
                 curr2 = curr2.next; //second list loop
-            } //end while
+            }
 
             logichere = true;
         }else{
@@ -152,6 +151,5 @@ public class ListReferenceBased implements ListInterface {
 
         //return boolean
         return logichere;
-    }//end equals  method
-
-} //end class
+    }
+}

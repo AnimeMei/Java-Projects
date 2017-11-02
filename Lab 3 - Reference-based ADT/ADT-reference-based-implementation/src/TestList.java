@@ -7,16 +7,17 @@
 //  A StringTokenizer is used to handle user input and insert them into the list
 //  The equals and replace  methods within ListReferenceBased are called and handle the appropriate operations
 // ************************************************************************************************************
+
 import List.Node;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class TestList
-{
+public class TestList {
 // -----------------------------------------------------------------------
 // Precondition:  List exists
 // Postcondition: Returns corresponding method  operations
 //------------------------------------------------------------------------
+    
    static Scanner in = new Scanner(System.in);  //Scanner for keyboard input
    public static void main(String args[]) {
 
@@ -37,9 +38,9 @@ public class TestList
             }
 
             System.out.println("");
-        }//end while
+        }
 
-    }// end main
+    }
 
     // Main menu display for the program
     public static void menu(){
@@ -48,7 +49,7 @@ public class TestList
         System.out.println("2)Compare two lists of integers");
         System.out.println("3)Quit");
         System.out.print("Enter your choice: ");
-    }//end menu()
+    }
 
    //replace value(s) in a list
     public static void replacement(){
@@ -70,7 +71,7 @@ public class TestList
                    int newInput = Integer.parseInt(sx.nextToken());
                    aList.add(i, newInput);
                 }
-        }// end while
+        }
 
         System.out.print("Enter a value to be modified: ");
         int mod = in.nextInt();
@@ -111,7 +112,7 @@ public class TestList
                 int newInput = Integer.parseInt(sts.nextToken());
                 bList.add(i, newInput);
             }
-        }//end while
+        }
 
         System.out.print("Enter second list to be compared: ");
         String userNewInput = in.nextLine();
@@ -124,7 +125,7 @@ public class TestList
                 int newwInput = Integer.parseInt(something.nextToken());
                 cList.add(i, newwInput);
             }
-        }//end while
+        }
 
         //equals method call, get return boolean
         boolean logic = bList.equals(cList);
@@ -133,6 +134,6 @@ public class TestList
         } else {
             System.out.println("The two lists are not equal");
         }
-    }//end compare()
+    }
 
-} // end class
+}

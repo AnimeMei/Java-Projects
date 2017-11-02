@@ -1,7 +1,9 @@
 package List;
+
 // ****************************************************
 // Interface for the ADT list
 // ****************************************************
+
 public interface ListInterface {
   // list operations:
   public boolean isEmpty();
@@ -12,7 +14,7 @@ public interface ListInterface {
 
   public void remove(int index);
 
-  public Object get(int index)
-                       ;
+  public Object get(int index);
+    
   public void removeAll();
-} // end ListInterface
+}

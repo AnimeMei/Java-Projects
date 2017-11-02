@@ -5,9 +5,9 @@
 
 //precondition: Data is present
 //postcondition: Exception is throwin if one of the operations is provided an index value that is out of range
-public class ListIndexOutOfBoundsException
-            extends IndexOutOfBoundsException {
+
+public class ListIndexOutOfBoundsException extends IndexOutOfBoundsException {
   public ListIndexOutOfBoundsException(String s) {
     super(s);
-  }  // end constructor
-}  // end ListIndexOutOfBoundsException
+  }
+}

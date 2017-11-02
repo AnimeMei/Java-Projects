@@ -12,10 +12,11 @@
 // ************************************************************************************************************
 // Precondition: User inputs a number, series of numbers, or a blank line
 // Postcondition: The input is sent to to the list for comparison within InAscendingOrder
+
 import java.util.Scanner;
 import java.util.StringTokenizer;
-public class Solution1
-{
+
+public class Solution1 {
     static Scanner in = new Scanner(System.in);
     public static void main(String args[]) {
         int number;
@@ -58,9 +59,9 @@ public class Solution1
               aList.removeAll();        //clear aList
               System.out.println("");
            }
-        }// end while
-   }//end main
-} //end class
+        }
+   }
+}
 
 // ************************************************************************************************************
 //Captured Output:

@@ -6,6 +6,7 @@
 //  Exceptions are throwin if indexes are out of range upon trying to add/remove list data
 //  This class is implented into ComparableListArrayBased
 // **********************************************************************
+
 public interface ComparableListInterface {
   public boolean isEmpty();
   // Determines whether a list is empty.
