@@ -3,7 +3,7 @@ This program will give you experience modifying a reference-based implementation
 
 This program is created with NetBeans platform.
 
-##Captured output
+## Captured output
 
     What you want to do?
     1) Replace a value in a list of integers
